@@ -5,6 +5,9 @@ const saved = localStorage.getItem('theme');
 if (saved === 'light') {
     document.body.classList.add('light');
     if (themeBtn) themeBtn.textContent = '🌙 Dark';
+} else {
+    document.body.classList.remove('light');
+    if (themeBtn) themeBtn.textContent = '☀️ Light';
 }
 
 if (themeBtn) {
