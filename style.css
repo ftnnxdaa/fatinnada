@@ -528,6 +528,12 @@ footer p {
         text-align: center;
         margin-top: 5px;
     }
+
+    .theme-btn {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    cursor: pointer;
+}
 }
 .sejarah{
     margin-top: 60px;
