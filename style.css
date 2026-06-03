@@ -514,7 +514,6 @@ footer p {
     .section {
         padding: 50px 5%;
     }
-}
 @media (max-width: 480px) {
     .navbar a {
         font-size: 0.78rem;
@@ -523,6 +522,11 @@ footer p {
     .navbar img {
         width: 38px;
         height: 38px;
+    }
+    .navbar .theme-btn {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
     }
 }
 .sejarah{
